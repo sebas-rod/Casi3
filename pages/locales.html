@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/locales.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>Locales</title>
+</head>
+<div class="todo">
+    <!-- navbar -->
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
+                <div class="container-fluid">
+                    <a class="navbar-brand">
+                        <span class="text-info fs-5 fw.bold">Tasty Gelato </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./locales.html">Locales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./promos.html">Promos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./sobre-nosotros.html">Sobre
+                                    nosotros</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="buscar">
+                            <button class="btn btn-info btn-info-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- titulo -->
+        <div class="titulo">
+            <h1> Conoce nuestros </h1>
+        </div>
+
+
+        <div class="titulo2 text-info">
+            <h1> Locales </h1>
+        </div>
+
+
+        <!-- mapa -->
+
+        <div class="mapa">
+            <div class="map">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.1121620873528!2d21.332829380557968!3d41.022802008026105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135724e385296d21%3A0x40c42d67bf0b8a69!2sTasty%20Gelato%20(sladoled%20Pelister)!5e0!3m2!1ses!2ses!4v1683396734432!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+            <div class="buscador">
+                <section class="d-flex justify-content-center align-items-center">
+                    <div class="mb-4 d-flex justify-content-start align-items-center">
+                    </div>
+                    <div class="mb-1">
+                        <form id="contacto">
+                            <div class="mb-4 d-flex justify-content-between">
+                                <div>
+                                    <label for="nombre"> <i class="bi bi-person-fill"></i> Buscador</label>
+                                    <input type="text" class="form-control" name="nombre" id="nombre"
+                                        placeholder=" Direccion " required>
+                                    <div class="nombre text-danger "></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <button id="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                                    <span>Buscar </span><i id="icono" class="bi bi-cursor-fill "></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <p>
+
+        </p>
+
+        <!-- footer -->
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="../images/Unknown.png" alt="Logo de Tasty Gelato">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2> CONTACTO </h2>
+                    <p> +54 1123887595 </p>
+                    <p> TastyGelato@gmail.com </p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2023 <b>Tasty Gelato</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+    </body>
+</div>
+
+</html>
